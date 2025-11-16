@@ -1,3 +1,5 @@
+import sys
+!{sys.executable} -m pip install matplotlib==3.7.2
 # app.py
 
 import streamlit as st
@@ -120,3 +122,4 @@ if pca_components >= 2:
     plt.legend()
     plt.grid(True)
     st.pyplot(plt)
+
